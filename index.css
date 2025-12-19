@@ -1,3 +1,9 @@
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
 .carousel-item {
   height: 600px;
   background-size: cover;
@@ -178,7 +184,6 @@
   background: #f4f7ff;
 }
 
-/* Title */
 .services-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -186,7 +191,6 @@
   margin-top: 15px;
 }
 
-/* Service Card */
 .service-card {
   background: #f9fbff;
   padding: 35px 30px;
@@ -202,28 +206,24 @@
   box-shadow: 0 18px 40px rgba(0, 102, 255, 0.18);
 }
 
-/* Icons */
 .service-icon {
   font-size: 42px;
   color: #0066ff;
   margin-bottom: 20px;
 }
 
-/* Card Title */
 .service-card h5 {
   font-weight: 700;
   color: #0a1f44;
   margin-bottom: 15px;
 }
 
-/* Card Text */
 .service-card p {
   color: #555;
   font-size: 0.95rem;
   line-height: 1.6;
 }
 
-/* Experience Badge */
 .experience-badge span {
   display: inline-block;
   padding: 12px 28px;
@@ -234,10 +234,10 @@
 }
 
 .section-tag {
-  text-transform: uppercase;   /* CAPITALISE */
+  text-transform: uppercase;   
   font-size: 13px;
   letter-spacing: 2px;
-  color: #0066ff;              /* cyber blue */
+  color: #0066ff;             
   font-weight: 600;
 }
 
@@ -246,7 +246,6 @@
   background: #ffffff;
 }
 
-/* Title */
 .features-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -254,9 +253,8 @@
   margin-top: 15px;
 }
 
-/* Feature Card */
 .feature-card {
-  background: #e6eeff;                 /* slightly dark blue */
+  background: #e6eeff;                
   padding: 40px 30px;
   border-radius: 18px;
   height: 100%;
@@ -270,34 +268,29 @@
   box-shadow: 0 18px 40px rgba(0, 102, 255, 0.18);
 }
 
-/* Icons */
 .feature-icon {
   font-size: 44px;
   color: #0066ff;
   margin-bottom: 20px;
 }
 
-/* Card Title */
 .feature-card h5 {
   font-weight: 700;
   color: #0a1f44;
   margin-bottom: 15px;
 }
 
-/* Card Text */
 .feature-card p {
   color: #555;
   font-size: 0.95rem;
   line-height: 1.6;
 }
 
-/* Projects Section */
 .projects-section {
   padding: 80px 0;
   background: #f4f7ff;
 }
 
-/* Section Tag */
 .section-tag {
   text-transform: uppercase;
   font-size: 13px;
@@ -305,12 +298,10 @@
   font-weight: 600;
 }
 
-/* Project specific color */
 .project-tag {
   color: #0066ff;
 }
 
-/* Title */
 .projects-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -318,7 +309,6 @@
   margin-top: 15px;
 }
 
-/* Project Card */
 .project-card {
   background: #ffffff;
   border-radius: 18px;
@@ -333,14 +323,12 @@
   box-shadow: 0 18px 40px rgba(0, 102, 255, 0.2);
 }
 
-/* Image */
 .project-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-/* Content */
 .project-content {
   padding: 20px;
 }
@@ -360,7 +348,6 @@
   margin-bottom: 12px;
 }
 
-/* Link */
 .project-link {
   font-weight: 600;
   color: #0066ff;
@@ -371,7 +358,6 @@
   text-decoration: underline;
 }
 
-/* Bottom Banner */
 .projects-banner {
   background: linear-gradient(135deg, #0066ff, #00d4ff);
   padding: 50px 30px;
@@ -398,7 +384,6 @@
   opacity: 0.95;
 }
 
-/* Button */
 .btn-projects {
   padding: 12px 30px;
   border-radius: 30px;
@@ -413,13 +398,11 @@
   background: #f0f4ff;
 }
 
-/* Section */
 .why-section {
   padding: 80px 0;
   background: #ffffff;
 }
 
-/* Title */
 .why-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -427,7 +410,6 @@
   margin-top: 15px;
 }
 
-/* Reason Cards */
 .why-card {
   background: #f4f7ff;
   padding: 40px 30px;
@@ -461,7 +443,6 @@
   line-height: 1.6;
 }
 
-/* Counters */
 .counter-box {
   background: #ffffff;
   padding: 30px 20px;
@@ -486,13 +467,11 @@
   font-weight: 500;
 }
 
-/* Alternate Security Section */
 .security-alt-section {
   padding: 90px 0;
   background: #ffffff;
 }
 
-/* Title */
 .security-alt-title {
   font-size: 2.6rem;
   font-weight: 700;
@@ -500,14 +479,12 @@
   margin-top: 15px;
 }
 
-/* Timeline container */
 .security-timeline {
   max-width: 900px;
   margin: 0 auto;
   position: relative;
 }
 
-/* Vertical line */
 .security-timeline::before {
   content: "";
   position: absolute;
@@ -519,7 +496,6 @@
   border-radius: 5px;
 }
 
-/* Each step */
 .security-step {
   display: flex;
   align-items: flex-start;
@@ -527,7 +503,6 @@
   position: relative;
 }
 
-/* Icon circle */
 .security-icon {
   width: 70px;
   height: 70px;
@@ -543,7 +518,6 @@
   z-index: 1;
 }
 
-/* Content */
 .security-content {
   margin-left: 30px;
   background: #f6f9ff;
@@ -563,7 +537,6 @@
   line-height: 1.6;
 }
 
-/* Mini features */
 .security-mini {
   background: #f4f7ff;
   padding: 30px;
@@ -595,7 +568,6 @@
   background: #e6eeff;
 }
 
-/* Pricing Section */
 .pricing-section {
   margin-top: -90px;
   padding: 90px 0;
@@ -609,7 +581,6 @@
   margin-top: 15px;
 }
 
-/* Pricing Card */
 .pricing-card {
   background: #ffffff;
   padding: 45px 35px;
@@ -624,7 +595,6 @@
   transform: translateY(-12px);
 }
 
-/* Featured Plan */
 .pricing-card.featured {
   background: linear-gradient(135deg, #0b2c5d, #00d4ff);
   color: #ffffff;
@@ -643,7 +613,6 @@
   font-size: 12px;
 }
 
-/* Icons */
 .pricing-icon {
   width: 70px;
   height: 70px;
@@ -657,7 +626,6 @@
   font-size: 30px;
 }
 
-/* Text */
 .plan-name {
   font-weight: 700;
   margin-bottom: 5px;
@@ -680,7 +648,6 @@
   color: #ffffff;
 }
 
-/* Features */
 .plan-features {
   list-style: none;
   padding: 0;
@@ -692,7 +659,6 @@
   font-weight: 500;
 }
 
-/* Buttons */
 .btn-pricing {
   border-radius: 30px;
   background: linear-gradient(135deg, #0066ff, #00d4ff);
@@ -729,7 +695,6 @@
   color: #444;
 }
 
-/* Testimonials Section */
 .testimonials-section {
   padding: 80px 0;
   background: #f8fbff;
@@ -741,7 +706,6 @@
   color: #0a1f44;
 }
 
-/* Card */
 .testimonial-card {
   background: #ffffff;
   padding: 35px;
@@ -755,7 +719,6 @@
   transform: translateY(-8px);
 }
 
-/* Icon Circle */
 .testimonial-icon {
   width: 60px;
   height: 60px;
@@ -769,7 +732,6 @@
   margin-bottom: 20px;
 }
 
-/* Quote */
 .testimonial-quote {
   font-style: italic;
   color: #444;
@@ -777,7 +739,6 @@
   margin-bottom: 25px;
 }
 
-/* Author */
 .testimonial-author h6 {
   font-weight: 700;
   color: #0a1f44;
@@ -796,13 +757,11 @@
   color: #666;
 }
 
-/* Support CTA Section */
 .support-cta-section {
   padding: 70px 0;
   background: #ffffff;
 }
 
-/* CTA Box */
 .support-cta-box {
   background: linear-gradient(135deg, #0066ff, #00d4ff);
   padding: 40px 50px;
@@ -815,7 +774,6 @@
   box-shadow: 0 20px 45px rgba(0, 102, 255, 0.25);
 }
 
-/* Text */
 .support-text h4 {
   font-size: 1.8rem;
   font-weight: 700;
@@ -833,7 +791,6 @@
   font-size: 1.1rem;
 }
 
-/* Button */
 .btn-support {
   padding: 14px 40px;
   border-radius: 30px;
@@ -849,13 +806,11 @@
   color: #0066ff;
 }
 
-/* Team Section */
 .team-section {
   padding: 90px 0;
   background: #f8fbff;
 }
 
-/* Title */
 .team-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -863,7 +818,6 @@
   margin-top: 15px;
 }
 
-/* Team Card */
 .team-card {
   background: #ffffff;
   padding: 30px 25px;
@@ -879,7 +833,6 @@
   box-shadow: 0 20px 45px rgba(0, 102, 255, 0.22);
 }
 
-/* Image */
 .team-card img {
   width: 130px;
   height: 130px;
@@ -889,14 +842,12 @@
   border: 4px solid #0066ff20;
 }
 
-/* Name */
 .team-card h5 {
   font-weight: 700;
   color: #0a1f44;
   margin-bottom: 4px;
 }
 
-/* Role */
 .team-role {
   display: block;
   font-size: 0.95rem;
@@ -905,14 +856,12 @@
   margin-bottom: 6px;
 }
 
-/* Certifications */
 .team-cert {
   font-size: 0.85rem;
   color: #555;
   margin-bottom: 15px;
 }
 
-/* Profile Link */
 .team-link {
   font-weight: 600;
   color: #0066ff;
@@ -923,7 +872,6 @@
   text-decoration: underline;
 }
 
-/* FAQ Section */
 .faq-section {
   padding: 90px 0;
   background: #ffffff;
@@ -936,7 +884,6 @@
   margin-top: 15px;
 }
 
-/* Accordion */
 .faq-accordion .accordion-item {
   border: none;
   margin-bottom: 15px;
@@ -962,14 +909,12 @@
   line-height: 1.7;
 }
 
-/* Side Image */
 .faq-image {
   max-width: 420px;
   border-radius: 20px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
 }
 
-/* Blog Section */
 .blog-section {
   padding: 90px 0;
   background: #ffffff;
@@ -983,12 +928,10 @@
   margin-top: 15px;
 }
 
-/* Scroll Wrapper */
 .blog-scroll-wrapper {
   position: relative;
 }
 
-/* Horizontal Scroll */
 .blog-scroll {
   display: flex;
   gap: 35px;
@@ -997,12 +940,10 @@
   scroll-behavior: smooth;
 }
 
-/* Hide scrollbar */
 .blog-scroll::-webkit-scrollbar {
   display: none;
 }
 
-/* Blog Card */
 .blog-card {
   min-width: 90%;
   background: #ffffff;
@@ -1016,14 +957,12 @@
   transform: translateY(-8px);
 }
 
-/* Image */
 .blog-card img {
   width: 100%;
   height: 230px;
   object-fit: cover;
 }
 
-/* Content */
 .blog-content {
   padding: 25px;
 }
@@ -1042,7 +981,6 @@
   margin-bottom: 18px;
 }
 
-/* Link */
 .blog-link {
   font-weight: 600;
   color: #0066ff;
@@ -1053,7 +991,6 @@
   text-decoration: underline;
 }
 
-/* Bottom Indicator */
 .scroll-indicator {
   width: 280px;
   height: 4px;
@@ -1063,7 +1000,7 @@
 }
 
 .site-footer {
-  background: #0a1f44;   /* dark cyber blue */
+  background: #0a1f44;  
   padding: 20px 0;
   margin-top: 60px;
   text-align: center;
@@ -1076,9 +1013,7 @@
   letter-spacing: 0.5px;
 }
 
-/* ================= MOBILE RESPONSIVE ================= */
-
-@media (max-width: 768px) {
+@media (max-width: 650x) {
 
   /* HERO SLIDER */
   .carousel-item {
